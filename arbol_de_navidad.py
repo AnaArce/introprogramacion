@@ -21,7 +21,7 @@ k = 0
 for i in range(1, 17):
     y = 30*i
     for j in range(i-k):
-        x =  30+j
+        x =  30*j
         square.goto(x,-y+280)
         square.stamp()
         square.goto(-x,-y+280)
