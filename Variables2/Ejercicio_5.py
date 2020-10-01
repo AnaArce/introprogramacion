@@ -3,7 +3,7 @@ E1 = N == 5
 E2 = N == 5.0
 E3 = N > 0 and N < 10
 E4 = N < 0 and N > 10
-E5 = N == 5 and N < 10 or N > 20
+E5 = N == 5 or N < 10 and N > 20
 print(N, "Es igual a 5: ", E1)
 print(N, "Es igual que 5.0: ", E2)
 print(N, "Es mayor que 0 y menor que 10: ", E3)
