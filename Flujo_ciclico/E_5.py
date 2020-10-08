@@ -1,3 +1,3 @@
 num = int(input("ingrese un numero aqui: "))
-while num:
-    print("*")
+for i in range(num+1):
+    print("*"*i)
