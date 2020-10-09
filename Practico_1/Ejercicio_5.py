@@ -1,4 +1,3 @@
-#
 P1 = input("Palabra 1: ")
 P2 = input("Palabra 2: ")
 long_P1 = len(P1)
