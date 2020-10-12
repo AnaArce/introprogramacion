@@ -1,10 +1,7 @@
-def timeConv (V):
-    n = int(input("ingrese el numero de tramos: "))
-    for i in range(0,n):
-        V = print("duracion del tramo: ")
-        m = V % 60
-        print(m)
-        h = (V - m)/60
-        print(h)
-        result = str(h) + ":" + str(m)
-        print(timeConv (266))
+num = int(input("Ingrese la duracion del tramo: "))
+suma = 0
+while num > 0:
+    suma = suma + num
+    num = int(input("ingrese la duracion del tramo: "))
+tiempo = suma/60
+print(f"El tiempo total de viaje es: {round(tiempo,2)} horas.")
