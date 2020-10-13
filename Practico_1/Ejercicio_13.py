@@ -1,10 +1,13 @@
-import math
 numero = int(input("n: "))
-pi = 0
-for k in range(numero +1):
-    pi = numero * math.pi
-    l = pi / 2
-print(l)
-
+suma = 0
+for nta in range(1, numero + 1):
+    if nta % 2 == 0:
+        signo = -1
+    else:
+        signo = 1
+    valor = signo / (1 + 2*(nta - 1))
+    suma += valor
+pi = 4 * suma
+print(pi)
 
 
