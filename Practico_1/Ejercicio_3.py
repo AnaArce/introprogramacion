@@ -1,3 +1,4 @@
+#Programa que pida dos numeros enteros y que calcule la divicion, indicamos si la division es exacta o no
 N1 = int(input("Ingrese un mumero: "))
 N2 = int(input("Ingrese otro numero: "))
 cosiente = N1 // N2

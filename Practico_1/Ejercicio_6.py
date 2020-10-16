@@ -1,3 +1,4 @@
+#Programa que al ingresar numeros y los muestre ordenados de menor a mayor
 N1 = int(input("Ingrese numero: "))
 N2 = int(input("Ingrese numero: "))
 N3 = int(input("Ingrese numero: "))

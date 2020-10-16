@@ -1,3 +1,4 @@
+#Escriba un programa que reciba como entrada la estatura, el peso, y la edad de una persona, y le entregue su condicion de riesgo
 peso = int(input("Ingrese su peso en Kg: "))
 altura = float(input("Ingrese su altura en m: "))
 edad = int(input("Ingrese su edad: "))

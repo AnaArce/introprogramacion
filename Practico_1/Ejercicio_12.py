@@ -1,3 +1,4 @@
+#Programa que debe mostrar la malabra mas larga y la mas corta
 n = int(input("Indique cuantas palabras ingresara: "))
 palabra_mas_larga = ""
 palabra_mas_corta = "-1"

@@ -1,3 +1,4 @@
+#Programa que entregue la edad del usuario a partir de su fecha de nacimiento
 from time import localtime
 t = localtime()
 año_ac = t.tm_year

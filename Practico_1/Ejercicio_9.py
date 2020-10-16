@@ -1,3 +1,4 @@
+#Calculadora
 print("Operaciones: suma(+), resta(-), multiplicacion(*), divicion(/), potenciacion(**)")
 N1 = int(input("Operando: "))
 N2 = (input("Operador: "))

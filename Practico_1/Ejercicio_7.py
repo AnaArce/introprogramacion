@@ -1,3 +1,4 @@
+#Divisores del numero entregado
 num = int(input("Ingrese numero: "))
 contador = 0
 divisor = 0
