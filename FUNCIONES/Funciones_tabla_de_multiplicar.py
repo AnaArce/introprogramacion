@@ -6,5 +6,5 @@ def tablam(numi):
 
 for j in range(1,11):
     print(" ")
-    print("Tabla de multiplicar de", i, "es: ")
+    print("Tabla de multiplicar de", j, "es: ")
     tablam(j)
